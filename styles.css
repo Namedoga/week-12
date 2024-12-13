@@ -1,21 +1,60 @@
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
 }
 
-h1 {
-    color: var(--main-color);
-    font-size: var(--font-size-large);
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.buttons, .form {
+    margin: 20px 0;
     text-align: center;
 }
-/* Box Model Example */
-.box {
-    width: 300px;
-    padding: 20px;
-    margin: 20px auto;
-    border: 3px solid var(--main-color);
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.data-display {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
     background-color: #fff;
-    text-align: center;
+    border-radius: 5px;
+}
+
+input, textarea {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.form button {
+    width: 50%;
 }
