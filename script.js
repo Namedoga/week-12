@@ -1,4 +1,5 @@
 
+// Task one
 
 
 document.getElementById('fetchDataFetch').addEventListener('click', () => {
@@ -15,6 +16,9 @@ document.getElementById('fetchDataFetch').addEventListener('click', () => {
             dataDisplay.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
         });
     });
+
+
+// Task two
 
     document.getElementById('fetchDataXHR').addEventListener('click', () => {
         const xhr = new XMLHttpRequest();
@@ -35,7 +39,7 @@ document.getElementById('fetchDataFetch').addEventListener('click', () => {
         xhr.send();
     });
     
-
+// task three 
 
     document.getElementById('postForm').addEventListener('submit', event => {
         event.preventDefault();
